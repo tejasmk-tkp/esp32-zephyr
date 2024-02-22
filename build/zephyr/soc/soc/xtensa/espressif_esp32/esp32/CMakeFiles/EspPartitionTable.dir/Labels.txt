@@ -1,0 +1,13 @@
+# Target labels
+ EspPartitionTable
+# Source files and their labels
+/home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/soc/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspPartitionTable
+/home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/soc/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspPartitionTable.rule
+/home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/soc/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspPartitionTable-complete.rule
+/home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/soc/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-build.rule
+/home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/soc/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-configure.rule
+/home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/soc/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-download.rule
+/home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/soc/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-install.rule
+/home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/soc/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-mkdir.rule
+/home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/soc/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-patch.rule
+/home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/soc/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-update.rule
