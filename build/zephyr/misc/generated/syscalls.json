@@ -1,14 +1,6 @@
 [
     [
         [
-            "void xtensa_user_fault",
-            "unsigned int reason"
-        ],
-        "arch.h",
-        true
-    ],
-    [
-        [
             "int zephyr_read_stdin",
             "char *buf, int nbytes"
         ],
@@ -137,38 +129,6 @@
     ],
     [
         [
-            "uint32_t sys_rand32_get",
-            "void"
-        ],
-        "random.h",
-        true
-    ],
-    [
-        [
-            "void sys_rand_get",
-            "void *dst, size_t len"
-        ],
-        "random.h",
-        true
-    ],
-    [
-        [
-            "int sys_csrand_get",
-            "void *dst, size_t len"
-        ],
-        "random.h",
-        true
-    ],
-    [
-        [
-            "int entropy_get_entropy",
-            "const struct device *dev,\n\t\t\t\t  uint8_t *buffer,\n\t\t\t\t  uint16_t length"
-        ],
-        "entropy.h",
-        true
-    ],
-    [
-        [
             "int gpio_pin_interrupt_configure",
             "const struct device *port,\n\t\t\t\t\t   gpio_pin_t pin,\n\t\t\t\t\t   gpio_flags_t flags"
         ],
@@ -245,6 +205,38 @@
             "const struct device *dev"
         ],
         "gpio.h",
+        true
+    ],
+    [
+        [
+            "int reset_status",
+            "const struct device *dev, uint32_t id, uint8_t *status"
+        ],
+        "reset.h",
+        true
+    ],
+    [
+        [
+            "int reset_line_assert",
+            "const struct device *dev, uint32_t id"
+        ],
+        "reset.h",
+        true
+    ],
+    [
+        [
+            "int reset_line_deassert",
+            "const struct device *dev, uint32_t id"
+        ],
+        "reset.h",
+        true
+    ],
+    [
+        [
+            "int reset_line_toggle",
+            "const struct device *dev, uint32_t id"
+        ],
+        "reset.h",
         true
     ],
     [
@@ -1217,14 +1209,6 @@
     ],
     [
         [
-            "int *z_errno",
-            "void"
-        ],
-        "errno_private.h",
-        true
-    ],
-    [
-        [
             "int sys_cache_data_flush_range",
             "void *addr, size_t size"
         ],
@@ -1253,6 +1237,14 @@
             "unsigned int reason"
         ],
         "error.h",
+        false
+    ],
+    [
+        [
+            "void xtensa_user_fault",
+            "unsigned int reason"
+        ],
+        "arch.h",
         false
     ],
     [
@@ -2005,6 +1997,14 @@
             "const struct emul *target, bool *cutoff"
         ],
         "emul_fuel_gauge.h",
+        false
+    ],
+    [
+        [
+            "int entropy_get_entropy",
+            "const struct device *dev,\n\t\t\t\t  uint8_t *buffer,\n\t\t\t\t  uint16_t length"
+        ],
+        "entropy.h",
         false
     ],
     [
@@ -2869,38 +2869,6 @@
             "const struct device *dev, uint32_t channel,\n\t\t\t\t pwm_flags_t flags, uint32_t *period,\n\t\t\t\t uint32_t *pulse, k_timeout_t timeout"
         ],
         "pwm.h",
-        false
-    ],
-    [
-        [
-            "int reset_status",
-            "const struct device *dev, uint32_t id, uint8_t *status"
-        ],
-        "reset.h",
-        false
-    ],
-    [
-        [
-            "int reset_line_assert",
-            "const struct device *dev, uint32_t id"
-        ],
-        "reset.h",
-        false
-    ],
-    [
-        [
-            "int reset_line_deassert",
-            "const struct device *dev, uint32_t id"
-        ],
-        "reset.h",
-        false
-    ],
-    [
-        [
-            "int reset_line_toggle",
-            "const struct device *dev, uint32_t id"
-        ],
-        "reset.h",
         false
     ],
     [
@@ -4089,6 +4057,30 @@
     ],
     [
         [
+            "uint32_t sys_rand32_get",
+            "void"
+        ],
+        "random.h",
+        false
+    ],
+    [
+        [
+            "void sys_rand_get",
+            "void *dst, size_t len"
+        ],
+        "random.h",
+        false
+    ],
+    [
+        [
+            "int sys_csrand_get",
+            "void *dst, size_t len"
+        ],
+        "random.h",
+        false
+    ],
+    [
+        [
             "int rtio_cqe_get_mempool_buffer",
             "const struct rtio *r, struct rtio_cqe *cqe,\n\t\t\t\t\t  uint8_t **buff, uint32_t *buff_len"
         ],
@@ -4213,6 +4205,14 @@
             "atomic_t *target, atomic_val_t value"
         ],
         "atomic_c.h",
+        false
+    ],
+    [
+        [
+            "int *z_errno",
+            "void"
+        ],
+        "errno_private.h",
         false
     ]
 ]

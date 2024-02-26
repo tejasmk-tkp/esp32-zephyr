@@ -1,29 +1,27 @@
 empty_file.o: \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/misc/empty_file.c \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/boards/xtensa/esp32_devkitc_wrover/esp32_devkitc_wrover.dts \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/dts/xtensa/espressif/esp32/esp32_wrover_e_n4r8.dtsi \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/dts/xtensa/espressif/esp32/esp32_common.dtsi \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/boards/arm/blackpill_f401cc/blackpill_f401cc.dts \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/dts/arm/st/f4/stm32f401Xc.dtsi \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/dts/common/mem.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/dts/xtensa/xtensa.dtsi \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/dts/arm/st/f4/stm32f401.dtsi \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/dts/arm/st/f4/stm32f4.dtsi \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/dts/arm/armv7-m.dtsi \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/dts/common/skeleton.dtsi \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/adc/adc.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/gpio/gpio.h \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/clock/stm32f4_clock.h \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/clock/stm32_common_clocks.h \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/i2c/i2c.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/clock/esp32_clock.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/interrupt-controller/esp-xtensa-intmux.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/pinctrl/esp32-pinctrl.h \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/gpio/gpio.h \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/pwm/pwm.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/boards/xtensa/esp32_devkitc_wrover/esp32_devkitc_wrover-pinctrl.dtsi \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/pinctrl/esp-pinctrl-common.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/dt-util.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/sys/util_macro.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/sys/util_internal.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/sys/util_loops.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/sys/util_listify.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/sys/util_internal_is_eq.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/sys/util_internal_util_inc.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/sys/util_internal_util_dec.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/sys/util_internal_util_x2.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/pinctrl/esp32-gpio-sigmap.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/input/esp32-touch-sensor-input.h
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/pwm/stm32_pwm.h \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/dma/stm32_dma.h \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/adc/stm32f4_adc.h \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/adc/stm32_adc.h \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/reset/stm32f2_4_7_reset.h \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/reset/stm32-common.h \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/sensor/qdec_stm32.h \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/dts/common/freq.h \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/modules/hal/stm32/dts/st/f4/stm32f401c(d-e)ux-pinctrl.dtsi \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/pinctrl/stm32-pinctrl.h \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/pinctrl/stm32-pinctrl-common.h \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h

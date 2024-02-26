@@ -1,6 +1,10 @@
 linker_zephyr_pre0.cmd: \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/soc/xtensa/espressif_esp32/esp32/default.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/arch/arm/cortex_m/scripts/linker.ld \
  /home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/include/generated/autoconf.h \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/sections.h \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/section_tags.h \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/toolchain.h \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/toolchain/gcc.h \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/devicetree.h \
  /home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/include/generated/devicetree_generated.h \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/irq_multilevel.h \
@@ -13,9 +17,7 @@ linker_zephyr_pre0.cmd: \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/sys/util_internal_util_inc.h \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/sys/util_internal_util_dec.h \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/sys/util_internal_util_x2.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/toolchain.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/toolchain/gcc.h \
- /opt/zephyr-sdk-0.16.5/xtensa-espressif_esp32_zephyr-elf/lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/include/stdbool.h \
+ /opt/zephyr-sdk-0.16.5/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/12.2.0/include/stdbool.h \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/devicetree/io-channels.h \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/devicetree/clocks.h \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/devicetree/gpio.h \
@@ -28,8 +30,7 @@ linker_zephyr_pre0.cmd: \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/devicetree/can.h \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/devicetree/reset.h \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/devicetree/mbox.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/sections.h \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/section_tags.h \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/devicetree_regions.h \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/linker-defs.h \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/toolchain/common.h \
  /home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/include/generated/offsets.h \
@@ -37,25 +38,42 @@ linker_zephyr_pre0.cmd: \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/linker-tool-gcc.h \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/kernel/mm.h \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/kernel/internal/mm.h \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/linker-devnull.h \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/rel-sections.ld \
- /home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/include/generated/snippets-rodata.ld \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/common-rom/common-rom-cpp.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/include/generated/snippets-rom-start.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/../arch/common/rom_start_address.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/../arch/common/fill_with_zeros.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/../arch/common/rom_start_offset.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/../arch/arm/core/vector_table.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/irq-vector-table-section.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/../arch/arm/core/cortex_m/vector_table_pad.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/kobject-text.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/common-rom.ld \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/common-rom/common-rom-kernel-devices.ld \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/iterable_sections.h \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/device-deps.ld \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/common-rom/common-rom-ztest.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/common-rom/common-rom-cpp.ld \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/common-rom/common-rom-net.ld \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/common-rom/common-rom-bt.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/common-rom/common-rom-logging.ld \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/common-rom/common-rom-debug.ld \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/common-rom/common-rom-misc.ld \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/thread-local-storage.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/include/generated/snippets-rodata.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/../arch/arm/core/swi_tables.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/kobject-rom.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/cplusplus-rom.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/include/generated/snippets-ram-sections.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/../arch/common/ramfunc.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/include/generated/snippets-ramfunc-section.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/include/generated/snippets-rwdata.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/common-ram.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/kobject-data.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/cplusplus-ram.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/include/generated/snippets-data-sections.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/include/generated/snippets-noinit.ld \
  /home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/include/generated/snippets-sections.ld \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/intlist.ld \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/cplusplus-rom.ld \
- /home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/include/generated/snippets-data-sections.ld \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/common-ram.ld \
- /home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/include/generated/snippets-ram-sections.ld \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/cplusplus-ram.ld \
- /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/common-rom/common-rom-logging.ld \
- /home/tejasmk-tkp/Documents/RTOS_Learn/build/zephyr/include/generated/snippets-rwdata.ld \
+ /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/ram-end.ld \
  /home/tejasmk-tkp/Documents/RTOS_Learn/zephyr/include/zephyr/linker/debug-sections.ld
